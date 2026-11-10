@@ -4,12 +4,12 @@
              x:Class="MAUI_Grid2Ex.MainPage">
 
 	<Grid RowDefinitions="Auto,*,Auto,Auto" Margin="5">
-		<Label Text="Using the StackPanel" HorizontalOptions="Start"
-                   FontSize="Medium" BackgroundColor="Yellow" Grid.Row="0"/>
+		<Label Text="Using the grid" HorizontalOptions="Start"
+                   FontSize="18" BackgroundColor="Yellow" Grid.Row="0"/>
 		<Label Text="Placing text in the middle" VerticalOptions="Center" Grid.Row="1"
-                   HorizontalTextAlignment="Center" FontSize="Large" BackgroundColor="Yellow"/>
+                   HorizontalTextAlignment="Center" FontSize="24" BackgroundColor="Yellow"/>
 		<Label Text="Right alignment" Grid.Row="2"       
-                   HorizontalTextAlignment="End" FontSize="Large" BackgroundColor="Yellow"/>
+                   HorizontalTextAlignment="End" FontSize="24" BackgroundColor="Yellow"/>
 		<Grid ColumnDefinitions="Auto,*,Auto"  Grid.Row="3" BackgroundColor="DarkGreen">
 			<Button Text="Left Button" HeightRequest="50"
                     Grid.Column="0"/>
